@@ -138,8 +138,8 @@ local highlights = function(colors)
     hi['LineNr']                   = { fg = colors.dim_0, bg = colors.bg_1, guisp = none, style = none }
     hi['CursorLineNr']             = { fg = colors.fg_1, bg = colors.bg_1, guisp = none, style = none }
     hi['WinSeparator']             = { fg = colors.dim_0, bg = colors.dim_0, guisp = none, style = none }
-    hi['StatusLine']               = { fg = none, bg = colors.bg_1, guisp = none, style = none }
-    hi['StatusLineNC']             = { fg = none, bg = colors.bg_2, guisp = none, style = none }
+    hi['StatusLineNC']               = { fg = none, bg = colors.bg_1, guisp = none, style = none }
+    hi['StatusLine']             = { fg = none, bg = colors.bg_2, guisp = none, style = none }
     hi['StatusLineTerm']           = 'StatusLine'
     hi['StatusLineTermNC']         = 'StatusLineNC'
     hi['TabLineSel']               = { fg = colors.fg_1, bg = colors.bg_2, guisp = none, style = none }
