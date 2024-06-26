@@ -131,7 +131,7 @@ local highlights = function(colors)
     hi['MatchParen']               = { fg = colors.br_yellow, bg = colors.bg_2, guisp = none, style = 'bold' }
     hi['Cursor']                   = { fg = none, bg = none, guisp = none, style = 'reverse' }
     hi['lCursor']                  = 'Cursor'
-    hi['CursorLine']               = { fg = none, bg = colors.bg_1, guisp = none, style = none }
+    hi['CursorLine']               = { fg = none, bg = none, guisp = none, style = none }
     hi['CursorColumn']             = { fg = none, bg = colors.bg_1, guisp = none, style = none }
     hi['Folded']                   = { fg = none, bg = colors.bg_1, guisp = none, style = none }
     hi['ColorColumn']              = { fg = none, bg = colors.bg_2, guisp = none, style = none }
